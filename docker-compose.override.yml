@@ -1,0 +1,11 @@
+services:
+  php:
+    volumes:
+      - ./html:/var/www/html
+    # Override the CMD for dev to see errors
+    environment:
+      PHP_DISPLAY_ERRORS: 1
+
+  nginx:
+    volumes:
+      - ./html:/var/www/html
