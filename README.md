@@ -1,26 +1,23 @@
-# DevOps Nginx + PHP-FPM + MySQL Stack
+# 🚀 DevOps LEMP Stack - Automated CI/CD Pipeline
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/mhmedtaher1/portfolio-php)](https://hub.docker.com/r/mhmedtaher1/portfolio-php)
-[![Docker Image Size](https://img.shields.io/docker/image-size/mhmedtaher1/portfolio-php)](https://hub.docker.com/r/mhmedtaher1/portfolio-php)
+[![Docker Pulls](https://img.shields.io/docker/pulls/mhmedtaher1/devops-nginx-php-mysql)](https://hub.docker.com/u/mhmedtaher1)
+[![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub%20Actions-2088FF?logo=github-actions)](https://github.com/mohamedtaher11/devops-nginx-php-mysql/actions)
+[![Docker](https://img.shields.io/badge/Dockerized-✓-2496ED?logo=docker)](https://hub.docker.com/)
 
-Production-ready PHP application using Docker Multi-Stage Build with Nginx, PHP-FPM 8.2, MySQL 8.0, and phpMyAdmin.
+> Full DevOps Pipeline: PHP + Nginx + MySQL stack containerized, automated with GitHub Actions, pushed to Docker Hub with secure secrets management.
 
-## 🚀 Features
-- **Multi-Stage Dockerfile**: Optimized image size with builder pattern
-- **HEALTHCHECK**: Built-in container health monitoring
-- **Dev/Prod Separation**: `docker-compose.override.yml` for local development with live reload
-- **phpMyAdmin**: Database management UI on port 8082
-- **Persistent Storage**: MySQL data with named Docker volumes
-- **Security**: Non-root user, .dockerignore, production-ready configs
+### 📦 Live Links
+- **GitHub Repo:** https://github.com/mohamedtaher11/devops-nginx-php-mysql
+- **Docker Hub:** https://hub.docker.com/u/mhmedtaher1
 
-## 🛠️ Tech Stack
-- **PHP**: 8.2-FPM Alpine
-- **Web Server**: Nginx Alpine  
-- **Database**: MySQL 8.0
-- **Orchestration**: Docker & Docker Compose
+---
 
-## 📦 Quick Start
+### ✅ What I Built (The 5 Steps)
 
-### Production
-```bash
-docker compose -f docker-compose.yml up -d
+1.  **Dockerized App:** Multi-container app (PHP-FPM, Nginx, MySQL 8.0, Caddy for HTTPS)
+2.  **Git Version Control:** Full version control with Docker Compose
+3.  **GitHub Actions CI/CD:** On every `git push`, pipeline builds, tests, and pushes automatically
+4.  **Docker Hub Registry:** Images pushed automatically to `mhmedtaher1/devops-nginx-php-mysql`
+5.  **Secrets Management:** Used GitHub Secrets for DockerHub credentials & DB passwords - no hardcoded secrets!
+
+### 🏗️ Architecture
